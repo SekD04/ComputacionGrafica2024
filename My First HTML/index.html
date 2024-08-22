@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./src/css/main.css">
     <script>
         alert("Hello World!");
+        function showDate(){
+            document.getElementById('demo').innerHTML = Date();
+        }
     </script>
 </head>
 <body>
@@ -33,6 +36,8 @@
     </svg>
 
     <img id="myImageSVG" name="myImageSVG" src="./src/svg/papas-fritas.svg" alt="Papas Fritas">
+    <button type="button" onclick="showDate()">Dame un pico</button>
+    <p id="demo">Fecha Aquí</p>
     
 </body>
 </html>
